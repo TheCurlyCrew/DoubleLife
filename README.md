@@ -8,7 +8,3 @@ https://www.youtube.com/watch?v=UwFbtE4YS7g&ab_channel=Grian
 
 The plugin is versioned using Semantic Versioning. https://semver.org/
 (MAJOR.MINOR.PATCH)
-
-### ARR License
-© 2022 RowwYourBoat. All Rights Reserved.  
-Only allowed for personal use. Modification, distribution and commercial use are forbidden!
