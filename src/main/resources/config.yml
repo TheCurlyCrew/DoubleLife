@@ -4,9 +4,9 @@ config-version: 2
 #### These settings will be applied when you run the '/dl setup' command!
 gamerules:
   spectators-generate-chunks: false
-  announce-advancements: false
-  do-weather-cycle: false
-  do-insomnia: false
+  announce-advancements: true
+  do-weather-cycle: true
+  do-insomnia: true
   players-sleeping-percentage: 100
   random-tick-speed: 6
   spawn-radius: 0
@@ -34,7 +34,10 @@ items:
       - SPEED
       - FIRE_RESISTANCE
       - NIGHT_VISION
-
+      - LEAPING
+      - SLOWNESS
+      - WATER_BREATHING
+      
 
 
 
@@ -45,7 +48,7 @@ items:
 #### You may change this here if you'd like.
 enchantments:
   enchantment-table-craftable: false
-  enchantment-table-breakable: false
+  enchantment-table-breakable: true
   bookshelves-craftable: false
 
   ## Enabling this setting will make all dropped Enchantment Tables unbreakable when dropped as an item.
@@ -53,7 +56,7 @@ enchantments:
   enchantment-table-indestructible-on-drop: true
 
   ## Enabling this setting will result in all enchanted items being maxed out at level 2 when combined in an anvil.
-  nerf-enchantment-stacking: false
+  nerf-enchantment-stacking: true
 
 
 
@@ -96,10 +99,10 @@ misc:
   ## If your soulmate dies while you're offline,
   ## you will be killed by the plugin upon rejoining
   ## when this setting is enabled.
-  kill-soulmate-on-join-if-offline-during-death: false
+  kill-soulmate-on-join-if-offline-during-death: true
 
   ## Will only be applied when running the '/dl setup' command!
-  border-size: 700.0
+  border-size: 600.0
 
   ## Kills all existing villagers and prevents new ones from spawning when enabled.
-  kill-villagers: false
+  kill-villagers: true
